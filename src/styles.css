@@ -1,0 +1,46 @@
+.container {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.question {
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(219, 203, 233);
+  user-select: none;
+}
+
+.question h2 {
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  user-select: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(191, 154, 222);
+}
+
+span {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
